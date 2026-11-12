@@ -10,12 +10,13 @@ I make small, native apps for Mac, iPhone and iPad. More at [rossnicholson.dev](
 | <img src="https://raw.githubusercontent.com/RossNicholson/clawdbar/main/docs/icon.png" width="48" alt=""> | **[ClawdBar](https://github.com/RossNicholson/clawdbar)** | Your Claude Code usage limits (5-hour session and 7-day weekly) always in view in the menu bar. |
 | <img src="https://raw.githubusercontent.com/RossNicholson/mop-up/main/docs/icon.png" width="48" alt=""> | **[Mop Up](https://github.com/RossNicholson/mop-up)** | A free Mac cleaner: clear out caches, uninstall apps along with their leftovers, tune up macOS and see where your disk space went. Powered by [Mole](https://github.com/tw93/Mole). |
 | <img src="https://raw.githubusercontent.com/RossNicholson/keybar/main/docs/icon.png" width="48" alt=""> | **[KeyBar](https://github.com/RossNicholson/keybar)** | Your API keys in the macOS Keychain, ready for Claude Code. Its MCP server puts a key into one command by name and hides it from the output, so Claude never sees the value. Touch ID included. |
+| <img src="https://raw.githubusercontent.com/RossNicholson/reporadar/main/docs/icon.png" width="48" alt=""> | **[Repo Radar](https://github.com/RossNicholson/reporadar)** | Every repo with work you haven't pushed, in your menu bar: uncommitted changes, unpushed commits and repos with no remote. Push, pull or put one on GitHub in a click. |
 
-All four are signed and notarized, and install with Homebrew from [my tap](https://github.com/RossNicholson/homebrew-tap):
+All five are signed and notarized, and install with Homebrew from [my tap](https://github.com/RossNicholson/homebrew-tap):
 
 ```bash
-brew trust --cask rossnicholson/tap/brewdock rossnicholson/tap/clawdbar rossnicholson/tap/mopup rossnicholson/tap/keybar
-brew install --cask rossnicholson/tap/brewdock rossnicholson/tap/clawdbar rossnicholson/tap/mopup rossnicholson/tap/keybar
+brew trust --cask rossnicholson/tap/brewdock rossnicholson/tap/clawdbar rossnicholson/tap/mopup rossnicholson/tap/keybar rossnicholson/tap/reporadar
+brew install --cask rossnicholson/tap/brewdock rossnicholson/tap/clawdbar rossnicholson/tap/mopup rossnicholson/tap/keybar rossnicholson/tap/reporadar
 ```
 
 On Homebrew older than 7, skip the `brew trust` line. The apps share one look through [mac-house-style](https://github.com/RossNicholson/mac-house-style), a small SwiftUI package.
